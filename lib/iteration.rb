@@ -7,7 +7,7 @@ def join_ingredients(array)
       count = 0
       while array[row_index].count do
         new_array.push("I love " + array[row_index][element_index] + " and " + array[row_index][element_index + 1] + " on my pizza")
-        element_index += 1
+        #element_index += 1
       end
     row_index += 1
     end
