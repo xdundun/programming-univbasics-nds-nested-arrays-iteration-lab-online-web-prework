@@ -1,6 +1,6 @@
 def join_ingredients(array)
   puts array
-  new_array = []
+  new_array = Array.new
     row_index = 0
     while row_index < array.count do
       element_index = 0
